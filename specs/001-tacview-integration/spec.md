@@ -74,7 +74,7 @@ Users want vehicles to appear in Tacview with consistent, recognizable metadata 
 - **FR-005**: Addon MUST provide graceful degradation on API failures by continuing vehicle tracking, logging failed transmissions internally, and skipping vehicles when server.getVehiclePos() returns isSuccess=false
 - **FR-006**: System MUST cache vehicle IDs when vehicles spawn and track them until despawn
 - **FR-007**: System MUST send vehicle position data to bridge server every 6 ticks (0.1 seconds)
-- **FR-008**: System MUST convert Stormworks coordinates to longitude/latitude using the specified conversion formula (x _ 0.000009090909090909091 for longitude, z _ 0.000009090909090909091 for latitude)
+- **FR-008**: System MUST convert Stormworks coordinates to longitude/latitude using the specified conversion formula (x * 0.000009090909090909091 for longitude, z * 0.000009090909090909091 for latitude)
 - **FR-009**: System MUST encode ACMI data using Base64 encoding before transmission
 - **FR-010**: System MUST send data to bridge server using HTTP GET requests to localhost:3000
 - **FR-011**: System MUST format ACMI data according to the specified protocol with timestamp and vehicle data lines

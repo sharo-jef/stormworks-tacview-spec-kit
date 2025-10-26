@@ -94,7 +94,7 @@ end
 
 **Rationale**:
 
-- Conversion formula provided: x _ 0.000009090909090909091 (longitude), z _ 0.000009090909090909091 (latitude)
+- Conversion formula provided: x * 0.000009090909090909091 (longitude), z * 0.000009090909090909091 (latitude)
 - Lua numbers are double-precision by default
 - Tacview expects reasonable geographic precision for visualization
 

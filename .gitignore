@@ -1,2 +1,16 @@
 /_build/
 !/_build/_buildactions.lua
+
+# Lua patterns
+*.tmp
+*.swp
+*.log
+
+# Universal patterns
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+.env*
